@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="js/jquery.min.js"></script>
+<script src="layer/layer.js"></script>
+<style>
+        .hover{
+            display: block;
+            width: 80px;
+            line-height: 30px;
+            height: 30px;
+            overflow: hidden;
+            position: relative;
+        }
+        .hover:hover{
+            overflow: visible;
+        }
+        .hover .ex{
+            position: absolute;
+            left: 80px;
+            top: 0;
+            width: 200px;
+            line-height: 60px;
+            background: #ff0;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<div class="box" style="margin: -8px;">
+        
+        <img src="images/bg.jpg" alt="" />
+</div>
+<script type="text/javascript">
+function bigImg(obj){
+	//alert("sdfsd");
+	document.getElementById("div1").style.display="block";
+}
+function hid(obj){
+	//alert("sdfsd");
+	document.getElementById("div1").style.display="none";
+}
+</script>
+
+</body>
+</html>

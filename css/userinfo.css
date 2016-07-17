@@ -1,0 +1,386 @@
+.mainbody {
+    width: 850px;
+    margin: 0px auto;
+    padding: 30px 20px 40px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    display: block;
+}
+.form-horizontal {
+    margin-top: 30px;
+}
+form{
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    display: block;
+}
+.form-horizontal .control-label {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+}
+label{
+    font-size: 14px;
+    font-weight: normal;
+}
+label{
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-bottom: 25px;
+}
+.form-horizontal .controls {
+    margin-left: 180px;
+}
+.controls input {
+    height: 30px;
+}
+.form-horizontal input{
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+input[type="text"]{
+    width: 190px;
+    padding: 5px 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 4px;
+}
+input[type="text"]{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+input{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.maroon {
+    color: #D20000;
+    padding-left: 2px;
+    font-family: "SimSun";
+}
+.form-horizontal input {
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.form-horizontal .control-label {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+}
+ .form-horizontal select{
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+select, textarea {
+    margin: 0px;
+    font-size: 100%;
+}
+select, textarea {
+    font-weight: normal;
+    line-height: 20px;
+}
+select{
+    height: 35px;
+    width: 190px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 4px;
+}
+select{
+    border-color: rgb(169, 169, 169);
+}
+select:not(:-internal-list-box) {
+    overflow-x: visible;
+    overflow-y: visible;
+}
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: white;
+    border: 1px solid;
+}
+select{
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+
+/*管理收货地址*/
+.profile h1{
+    border-bottom: 1px solid #dbd6d0;
+    font-weight: 400;
+    position: relative;
+    padding-left: 15px;
+    line-height: 46px;
+    overflow: hidden;
+    font-size: 18px;
+    display: block;
+    color: #333;
+}
+.profile h1{
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+}
+ h1{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+.profile .content {
+    overflow: hidden;
+    padding: 0 15px;
+    margin: 15px 0;
+    position: relative;
+    height: auto;
+}
+.profile {
+    font-family: Arial,'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1';
+}
+.profile .sector h2 {
+    margin: 15px 7px;
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: 700;
+}
+h2 {
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+form{
+    margin: 0;
+    padding: 0;
+}
+form {
+    display: block;
+}
+#order-list {
+    margin-bottom: 1px;
+}
+.profile table {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 1px solid #dbd6d0;
+    text-align: center;
+    empty-cells: show;
+    width: 100%;
+    background: 0;
+    font-size: inherit;
+}
+.profile table{
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+}
+table {
+    border-spacing: 0;
+}
+table {
+    display: table;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.profile th{
+    border-top: 0;
+    border-left: 0;
+}
+.profile th {
+    white-space: nowrap;
+    text-align: center;
+}
+.profile th {
+    background: linear-gradient(to bottom,#fbfbfb,#f7f4f2);
+    font-weight: 700;
+}
+.profile th{
+    border: 1px solid #dbd6d0;
+    height: 40px;
+}
+th{
+    margin: 0;
+    padding: 0;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.profile td {
+    border-top: 0;
+    border-left: 0;
+}
+.profile td {
+    padding: 0 5px;
+}
+.profile td {
+    border: 1px solid #dbd6d0;
+}
+.profile .order_info_td {
+    text-align: left;
+}
+.profile .order_info_td{
+    line-height: 1.5;
+    padding: 10px;
+    height: auto;
+}
+element.style {
+    padding: 0;
+}
+.profile td {
+    border: 1px solid #dbd6d0;
+    height: 40px;
+}
+.profile td a {
+    font: 12px '宋体';
+    margin: 12px auto;
+    cursor: pointer;
+}
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+.profile .alt td {
+    background-color: #fcfcfc;
+}
+.addresstr {
+    height: 30px; 
+}
+.real_name_td {
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

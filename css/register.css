@@ -1,0 +1,456 @@
+.loginImage {
+    background: url(../images/loginPic.jpg) no-repeat;
+    width: 960px;
+    height: 360px;
+    position: absolute;
+}
+/*header*/
+#header_container {
+    min-width: 960px;
+    background: #fff;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+#logo {
+    height: 85px;
+}
+#logo {
+    width: 960px;
+    margin: 0 auto;
+}
+element.style {
+    background: url(../images/rainbow.png) no-repeat top left;
+}
+#logo .header_logo_box {
+    display: inline-block;
+    padding-top: 35px;
+    float: right;
+}
+#logo a.top_link {
+    width: 110px;
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+}
+#logo a.top_link{
+    background: url(../images/header_corn_new_v2.png) no-repeat top center transparent;
+}
+#logo a.lightning {
+    background-position: 0 -64px;
+}
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+#logo a.gild {
+    background-image: url(../images/gild.png);
+    width: 170px;
+}
+#logo a.top_link {
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+}
+#logo a.credit {
+    background-position: 0 0;
+}
+
+/*content*/
+.sign {
+    line-height: 1.5;
+}
+.loginWrap {
+    margin-top: 120px;
+    margin-bottom: 70px;
+    height: 460px;
+}
+.loginWrap {
+    margin: 100px auto;
+    line-height: 1.5;
+    width: 965px;
+}
+.loginPic {
+    background: url(../images/signPic.jpg) no-repeat;
+    width: 960px;
+    height: 370px;
+    position: relative;
+}
+.signup_link {
+    display: block;
+    position: absolute;
+    width: 420px;
+    height: 370px;
+}
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+.loginWrap .loginBord {
+    top: -40px;
+}
+@media (min-width: 0)
+.loginWrap .loginBord {
+    border: 0;
+}
+.loginWrap .loginBord {
+    box-shadow: 0 0 4px rgba(0,0,0,.075);
+    background: rgba(255,255,255,.85);
+    position: absolute;
+    min-height: 400px;
+    padding: 0 23px;
+    width: 310px;
+    color: #333;
+    right: 0;
+}
+.loginBord .loginTit {
+    margin-bottom: 15px;
+    line-height: 60px;
+}
+.loginTit .tosignup {
+    color: #969696;
+    float: right;
+	font-size:13px;
+}
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+.loginTit h1 {
+    font-size: 20px;
+    color: #e31256;
+}
+.sign h1 {
+    font-family: "Microsoft YaHei","微软雅黑","黑体";
+}
+strong, b {
+    font-weight: bold;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+form {
+    margin: 0;
+	padding: 0;
+}
+.sign .line {
+    height: 44px;
+}
+.sign .line {
+    margin: 0;
+    margin-bottom: 28px;
+}
+.sign .line {
+    font-size: 12px;
+    clear: both;
+    color: #333;
+}
+.loginWrap .textbox_ui {
+    margin-bottom: 0;
+}
+.line .textbox_ui {
+    vertical-align: middle;
+    display: inline-block;
+}
+.sign .textbox_ui {
+    position: relative;
+}
+.textbox_ui input {
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+    width: 284px;
+}
+.textbox_ui input {
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+    width: 284px;
+}
+.textbox_ui .focus_text {
+    word-break: keep-all;
+    white-space: nowrap;
+    margin-top: 4px;
+    color: #999;
+    top: 100%;
+    left: 0;
+}
+.textbox_ui .focus_text {
+    position: absolute;
+    line-height: 1.5;
+    display: none;
+}
+.loginBord .invalid {
+    width: 290px;
+    white-space: normal;
+    word-break: normal;
+}
+.textbox_ui .invalid {
+    height: 1.5em;
+    left: 20px;
+}
+.textbox_ui .invalid{
+    margin-top: 4px;
+    color: #999;
+    top: 100%;
+}
+.textbox_ui .invalid{
+    position: absolute;
+    line-height: 1.5;
+}
+.textbox_ui .invalid i {
+    margin-top: -10px;
+    height: 20px;
+    width: 20px;
+}
+.textbox_ui .invalid i {
+    background-position: 0 -100px;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+}
+.textbox_ui .invalid i {
+    background-image: url(../images/sign.png);
+    background-repeat: no-repeat;
+}
+.loginBord .valid{
+    margin-left: -25px;
+}
+.textbox_ui .valid {
+    background-position: 0 -125px;
+}
+textbox_ui .valid{
+    margin-top: -10px;
+    height: 20px;
+    width: 20px;
+}
+.textbox_ui .valid{
+    margin-top: -10px;
+    height: 20px;
+    width: 20px;
+}
+.textbox_ui .valid{
+    left: 100%;
+    top: 50%;
+}
+element.style {
+    margin-left: 0px;
+}
+.sign .act{
+    margin: 0;
+    margin-bottom: 28px;
+}
+.sign .act{
+    font-size: 12px;
+    clear: both;
+    color: #333;
+}
+.sign form p {
+    margin: 10px 0;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+element.style {
+    width: 100%;
+}
+input[type=submit], input[type=submit] {
+    display: inline-block;
+    font-family: inherit;
+    word-break: keep-all;
+    background: #F8296D;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0 30px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+}
+input[type=submit], input[type=submit] {
+    overflow: visible;
+}
+.sign input {
+    vertical-align: middle;
+}
+.sign form p {
+    margin: 10px 0;
+}
+.textbox_ui .focus_text {
+    word-break: keep-all;
+    white-space: nowrap;
+    margin-top: 4px;
+    color: #999;
+    top: 100%;
+    left: 0;
+}
+.sign .textbox_ui p {
+    margin: 0;
+}
+.textbox_ui .safe {
+    position: relative;
+    line-height: 20px;
+    display: none;
+}
+.pw_level {
+    float: left;
+    border-right: 1px solid #fff;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #D0CECC;
+}
+element.style {
+    border-right: 0;
+}
+.pw_level {
+    float: left;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #D0CECC;
+}
+.sign .shadow_l{
+    left: -9px;
+}
+.sign .shadow_l,.sign .shadow_r{
+    background: url(../images/shadow.png) no-repeat center;
+    position: absolute;
+    height: 100%;
+    width: 8px;
+    top: 0;
+}
+.sign .shadow_r {
+    background-color: transparent;
+    filter: none;
+}
+.sign .shadow_r {
+    transform: scaleX(-1);
+    right: -9px;
+}
+.user input{
+    background-image: url(../images/sign.png);
+    background-repeat: no-repeat;
+}
+.user input {
+    background-position: 5px 0;
+}
+.user input {
+    padding-left: 38px;
+    width: 262px;
+}
+.pass input{
+    background-image: url(../images/sign.png);
+    background-repeat: no-repeat;
+}
+.pass input {
+    background-position: 5px -50px;
+}
+.pass input {
+    padding-left: 38px;
+    width: 262px;
+}
+
+
+/*footer*/
+#footer_container {
+    overflow: hidden;
+    margin-top: 0;
+    border-top: 1px solid #ddd;
+	background:#F6F6F6;
+}
+#footer_copyright {
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+.footer_con {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+#footer_copyright .logo01{
+    cursor: default;
+}
+#footer_copyright .footer_copy_logo {
+    width: 127px;
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #d7d7d7;
+    display: inline-block;
+    margin: 0 4px;
+}
+#footer_copyright .footer_copy_logo{
+    background: url(../images/header_corn_new.png) no-repeat top center transparent;
+}
+#footer_copyright .logo01 {
+    background-position: 0 -168px;
+}
+#footer_copyright .logo02 {
+    background-position: 0 -219px;
+}
+#footer_copyright .logo03 {
+    background-position: 0 -270px;
+}
+#footer_copyright .logo03{
+    cursor: default;
+}
+#footer_copyright .logo04 {
+    background-position: 0 -321px;
+}
+#footer_copyright .logo04 {
+    cursor: default;
+}
+#footer_copyright .logo05 {
+    background-position: 0 -372px;
+}
+#footer_copyright .footer_copy_con {
+    padding: 14px 0 18px;
+    line-height: 23px;
+	font-size: 13px;
+}
+#footer_copyright a {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+

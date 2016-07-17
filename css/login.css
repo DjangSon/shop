@@ -1,0 +1,358 @@
+/*header*/
+#header_container {
+    min-width: 960px;
+    background: #fff;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+#logo {
+    height: 85px;
+}
+#logo {
+    width: 960px;
+    margin: 0 auto;
+}
+element.style {
+    background: url(images/rainbow.png) no-repeat top left;
+}
+#logo .header_logo_box {
+    display: inline-block;
+    padding-top: 35px;
+    float: right;
+}
+#logo a.top_link {
+    width: 110px;
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+}
+#logo a.top_link{
+    background: url(images/header_corn_new_v2.png) no-repeat top center transparent;
+}
+#logo a.lightning {
+    background-position: 0 -64px;
+}
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+#logo a.gild {
+    background-image: url(images/gild.png);
+    width: 170px;
+}
+#logo a.top_link {
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+}
+#logo a.credit {
+    background-position: 0 0;
+}
+
+/*content*/
+.sign {
+    line-height: 1.5;
+}
+element.style {
+    height: 499px;
+    margin-bottom: 50px;
+}
+.loginWrap {
+    margin-top: 50px;
+}
+.loginWrap {
+    margin: 100px auto;
+    line-height: 1.5;
+    width: 965px;
+}
+.loginBoardWrap {
+    width: 960px;
+    position: relative;
+}
+.loginImage {
+    background: url(images/loginPic.jpg) no-repeat;
+    width: 960px;
+    height: 360px;
+    position: absolute;
+}
+.loginWrap .loginBord {
+    top: -10px;
+}
+.loginWrap .loginBord {
+    border: 0;
+}
+.loginWrap .loginBord {
+    box-shadow: 0 0 4px rgba(0,0,0,.075);
+    background: rgba(255,255,255,.85);
+    position: absolute;
+    min-height: 400px;
+    padding: 0 23px;
+    width: 310px;
+    color: #333;
+    right: 0;
+}
+.loginWrap .textbox_ui {
+    margin-bottom: 26px;
+}
+.sign .textbox_ui {
+    position: relative;
+}
+.textbox_ui {
+    height: 44px;
+}
+
+.textbox_ui input {
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+}
+.loginBord .loginTit {
+    margin-bottom: 15px;
+    line-height: 60px;
+}
+.loginTit .tosignup {
+    color: #969696;
+    float: right;
+}
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+.loginTit h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #e31256;
+}
+.sign h1 {
+    font-family: "Microsoft YaHei","微软雅黑","黑体";
+}
+strong, b {
+    font-weight: bold;
+}
+element.style {
+    display: none;
+}
+.sign input {
+    vertical-align: middle;
+}
+input{
+    -webkit-writing-mode: horizontal-tb;
+}
+input:-webkit-autofill{
+    background-color: rgb(250, 255, 189);
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+.loginWrap .textbox_ui {
+    margin-bottom: 26px;
+}
+.sign .textbox_ui {
+    position: relative;
+}
+.textbox_ui {
+    height: 44px;
+}
+.textbox_ui input {
+    box-shadow: none;
+    border: 1px solid #CFCFCF;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 10px 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    outline: 0;
+    height: auto;
+}
+.user input{
+    background-image: url(images/sign.png);
+    background-repeat: no-repeat;
+}
+.user input {
+    background-position: 5px 0;
+}
+.user input {
+    padding-left: 38px;
+    width: 262px;
+}
+.textbox_ui .focus_text {
+    word-break: keep-all;
+    white-space: nowrap;
+    margin-top: 4px;
+    color: #999;
+    top: 100%;
+    left: 0;
+}
+.textbox_ui .focus_text {
+    position: absolute;
+    line-height: 1.5;
+    display: none;
+}
+.textbox_ui .invalid{
+    position: absolute;
+    line-height: 1.5;
+}
+.loginBord .invalid {
+    width: 290px;
+    white-space: normal;
+    word-break: normal;
+}
+.textbox_ui .invalid {
+    height: 1.5em;
+    left: 20px;
+}
+.textbox_ui .invalid{
+    margin-top: 4px;
+    color: #999;
+    top: 100%;
+}
+.textbox_ui .invalid i {
+    margin-top: -10px;
+    height: 20px;
+    width: 20px;
+}
+.textbox_ui .invalid i {
+    background-position: 0 -100px;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+}
+.textbox_ui .invalid i {
+    background-image: url(images/sign.png);
+    background-repeat: no-repeat;
+}
+.pass input{
+    background-image: url(images/sign.png);
+    background-repeat: no-repeat;
+}
+.pass input {
+    background-position: 5px -50px;
+}
+.pass input {
+    padding-left: 38px;
+    width: 262px;
+}
+.sign form p {
+    margin: 10px 0;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.loginBord p a {
+    color: inherit;
+}
+.fr {
+    float: right;
+}
+.fr {
+    display: inline;
+}
+a {
+    text-decoration: none;
+}
+label {
+    cursor: default;
+}
+.sign input {
+    vertical-align: middle;
+}
+input{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    border: 2px inset;
+}
+element.style {
+    display: block;
+    width: 100%;
+}
+input[type=submit], input[type=submit] {
+    font-family: inherit;
+    word-break: keep-all;
+    background: #F8296D;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0 30px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+}
+input[type=submit], input[type=submit] {
+    overflow: visible;
+}
+.loginbtn {
+    margin-bottom: 10px;
+    outline: 0;
+}
+#errorMsg {
+    display: none;
+    background-color: #ffc;
+    border: 1px solid #FFCF6C;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.sign .shadow_l{
+    left: -9px;
+}
+.sign .shadow_l,.sign .shadow_r{
+    background: url(images/shadow.png) no-repeat center;
+    position: absolute;
+    height: 100%;
+    width: 8px;
+    top: 0;
+}
+.sign .shadow_r {
+    background-color: transparent;
+    filter: none;
+}
+.sign .shadow_r {
+    transform: scaleX(-1);
+    right: -9px;
+}
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
